@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+.cal{
+    margin-top: 8%;
+    margin-left: 30%;
+    background-color: blue;
+    height: 320px;
+    width: 500px;
+    color: white;
+    border: 5px solid black;
+    border-radius: 20px;
+    padding: 20px;
+}
+.val{
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.res{
+    border: 2px solid white;
+    border-radius: 20px;
+    cursor: pointer;
+}
+.row{
+    margin: 10px;
+}
+.ans{
+    padding: 00;
+    font-size: 26px;
+}
+.val:hover{
+    transition: 0.7s;
+    background-color: white;
+    color: blue;
+}
